@@ -70,6 +70,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
+    
 }
 
 .bg-repeat {
@@ -285,6 +286,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background-color: rgba(165, 147, 99, 0.4)
 }
 
 .navbar {
@@ -653,6 +655,9 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+h2{
+    font-size: 18,5px;
+}
 
 .container {
     max-width: 1000px;
@@ -695,13 +700,16 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+}
+.col-sm-12 .row :first-child :hover{
+    color: orange;
 }
 
 h2 {
@@ -753,7 +761,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,16 +779,19 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFF;
+    color: black;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #d65e25!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #d65e25;
     color: #FFFFFF!important;
+
 }
 
 .btn-atomic-tangerine:hover {
@@ -790,6 +801,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    
 }
 
 .ltc-white:hover {
@@ -824,7 +836,20 @@ h4 {
 .bg-presentation {
     background-image: url("includes/img/image-de-presentation.bmp");
 }
+.container .col-sm-12 :nth-child(1)>:first-of-type(p){
+    background: red;/*partie blanc sur blanc*/
+}
 
+.col-sm-12 .row :first-child{
+    color: black;
+    font-size: 18px;
+}
+.col-sm-12 .row:last-of-type ul li a{
+    color:black!important;
+}
+.col-sm-12 .row:last-of-type ul li a:hover{
+border-bottom:1px solid black;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
