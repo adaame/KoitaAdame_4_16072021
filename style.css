@@ -836,6 +836,16 @@ h4 {
 .bg-presentation {
     background-image: url("includes/img/image-de-presentation.bmp");
 }
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.presentation-agence{
+    font-size: 18,5px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
 .container .col-sm-12 :nth-child(1)>:first-of-type(p){
     background: red;/*partie blanc sur blanc*/
 }
@@ -1011,6 +1021,10 @@ border-bottom:1px solid black;
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
+    }
+   .col-xs-12 .text-center{
+        display: none;
+        background: red;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
