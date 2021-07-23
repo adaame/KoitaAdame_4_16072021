@@ -322,12 +322,16 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    right: 14rem;
 }
 
 .nav > li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+   left: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -437,9 +441,10 @@ nav .caret {
     float: right;
 }
 
-.mg-md {
+.text-center {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .mg-lg {
@@ -833,6 +838,11 @@ h4 {
 }
 .text-center{
     font-size: 18.5px;
+}
+.hero-bloc-text{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4em;
 }
 .presentation-agence{
     font-size: 18,5px;
