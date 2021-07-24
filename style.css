@@ -466,7 +466,9 @@ nav .caret {
     font-weight: bold;
     margin: 0;
 }
-
+blockquote , cite{
+    color: black;
+}
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
