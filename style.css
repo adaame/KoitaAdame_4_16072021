@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    font-size: 18.5px;
 }
 
 .bloc-lg {
@@ -94,8 +95,23 @@ a:hover {
 .texture-paper::before {
     background: url("includes/img/texture-paper-min.png");
     background-size: 280px 280px;
-}
+    background-color: #d65e25;
+    opacity: 0.7;
+    z-index: -2;
+  
 
+}
+#bloc-6 .tc-white{
+    color: white!important;
+    font-weight: bold;
+}
+ .container .bloc-lg{
+    background-color:#d65e25!important;   
+}
+#bloc-6,#bloc-8 .col-sm-12{
+    background-color: #d65e25!important;
+    padding: 2rem;
+}
 .b-parallax {
     background-attachment: fixed;
 }
@@ -446,6 +462,10 @@ nav .caret {
     margin-bottom: 20px;
     font-size: 22px;
 }
+.text-center p{
+    font-weight: bold;
+    margin: 0;
+}
 
 .mg-lg {
     margin-top: 10px;
@@ -688,6 +708,7 @@ h2{
 
 p {
     font-size: 18,5px;
+    margin:2.4rem;
 }
 
 .tight-width-whitespace {
@@ -795,6 +816,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #d65e25;
     color: #FFFFFF!important;
+    padding: 2rem;
 
 }
 
