@@ -108,10 +108,7 @@ a:hover {
  .container .bloc-lg{
     background-color:#d65e25!important;   
 }
-#bloc-6,#bloc-8 .col-sm-12{
-    background-color: #d65e25!important;
-    padding: 2rem;
-}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -461,6 +458,7 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 22px;
+    
 }
 .text-center p{
     font-weight: bold;
@@ -732,9 +730,6 @@ p {
     font-weight: 700;
 }
 
-.social {
-    margin:1.5rem auto;
-}
 .col-sm-12 .row :first-child :hover{
     color: orange;
 }
@@ -806,7 +801,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #FFF;
+    background-color: #d65e25!important;
     color: black;
 }
 
@@ -861,6 +856,7 @@ h4 {
     background-image: url("includes/img/image-de-presentation-min.jpeg");
 }
 .text-center{
+    
     font-size: 18.5px;
 }
 .hero-bloc-text{
@@ -921,6 +917,7 @@ border-bottom:1px solid black;
     .b-parallax {
         background-attachment: scroll;
     }
+
 }
 
 @media (max-width: 991px) {
