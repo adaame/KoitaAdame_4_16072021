@@ -99,16 +99,25 @@ a:hover {
     opacity: 0.7;
     z-index: -2;
   
-
 }
+
 #bloc-6 .tc-white{
     color: white!important;
     font-weight: bold;
 }
+
  .container .bloc-lg{
     background-color:#d65e25!important;   
 }
 
+#bloc-6  div .row{
+    background-color: rgba(165, 147, 99, 0.4);
+    padding: 40px;
+}
+#bloc-6 :last-of-type p{
+    background-color: rgba(165, 147, 99, 0.4);
+    padding: 40px;
+}
 .b-parallax {
     background-attachment: fixed;
 }
