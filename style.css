@@ -93,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("includes/img/texture-paper-min.jpg");
+    background: url("includes/img/texture-paper-min.webp");
     background-size: 280px 280px;
     background-color: #d65e25;
     opacity: 0.7;
@@ -854,15 +854,15 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("includes/img/lines-h2-bg-min.jpg");
+    background-image: url("includes/img/lines-h2-bg-min.webp");
 }
 
 .bg-banniere {
-    background-image: url("includes/img/la-chouette-agence-banniere-min.jpeg");
+    background-image: url("includes/img/la-chouette-agence-banniere-min.webp");
 }
 
 .bg-presentation {
-    background-image: url("includes/img/image-de-presentation-min.jpeg");
+    background-image: url("includes/img/image-de-presentation-min.webp");
 }
 .text-center{
     
