@@ -498,6 +498,10 @@ blockquote , cite{
 
 button {
     outline: none!important;
+    background-color: transparent;
+    border: none;
+   
+    
 }
 
 .btn-rd {
