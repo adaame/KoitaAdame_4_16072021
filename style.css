@@ -359,10 +359,14 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
+/* .navbar-nav > li > a:hover{
+    border-bottom: 1px solid black;
+} */
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border-bottom: 1px solid black;
 }
 
 .navbar-toggle {
