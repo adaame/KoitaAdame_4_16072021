@@ -1,4 +1,4 @@
-body {
+main {
     margin: 0;
     padding: 0;
     background: #FFF;
@@ -43,6 +43,7 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
     font-size: 18.5px;
+    text-align: center;
 }
 
 .bloc-lg {
@@ -107,7 +108,8 @@ a:hover {
 }
 
  .container .bloc-lg{
-    background-color:#d65e25!important;   
+    background-color:#d65e25!important; 
+    text-align: center;  
 }
 
 #bloc-6  div .row{
@@ -698,7 +700,7 @@ a {
     color: #575757!important;
 }
 h2{
-    font-size: 18,5px;
+    font-size: 18.5px;
 }
 
 .container {
@@ -724,7 +726,7 @@ h2{
 }
 
 p {
-    font-size: 18,5px;
+    font-size: 18.5px;
     margin:2.4rem;
 }
 
@@ -882,21 +884,20 @@ h4 {
     line-height: 1.4em;
 }
 .presentation-agence{
-    font-size: 18,5px;
+    font-size: 18.5px;
     font-weight: bold;
     width: 50%;
     text-align: center;
 }
-.container .col-sm-12 :nth-child(1)>:first-of-type(p){
-    background: red;/*partie blanc sur blanc*/
-}
-
 .col-sm-12 .row :first-child{
     color: black;
     font-size: 18px;
 }
 .col-sm-12 .row:last-of-type ul li a{
     color:black!important;
+}
+.col-sm-12 {
+    text-align: center;
 }
 .col-sm-12 .row:last-of-type ul li a:hover{
 border-bottom:1px solid black;
@@ -924,13 +925,13 @@ border-bottom:1px solid black;
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -949,10 +950,7 @@ border-bottom:1px solid black;
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -961,8 +959,6 @@ border-bottom:1px solid black;
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -1063,10 +1059,6 @@ border-bottom:1px solid black;
     .bloc-md {
         padding-left: 0;
         padding-right: 0;
-    }
-   .col-xs-12 .text-center{
-        display: none;
-        background: red;
     }
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
